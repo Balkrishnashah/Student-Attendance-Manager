@@ -1,0 +1,57 @@
+body{
+    padding:0; margin:0; 
+    font-family:"Trebuchet MS", Arial, segoe ui,Helvetica, sans-serif ; 
+}
+
+
+div, h1, h2, h3, img, form, ul, p, dl{
+    padding:0; margin:0;
+}
+ul{
+    list-style-type:none; font-size:0;
+}
+.spacer{
+    clear:right;
+    line-height:0; 
+    font-size:0;
+}
+
+
+#botBody{
+    width:1000px; 
+    margin:0 
+    auto; 
+    padding:0 0 0 0;
+}
+.subdiv{
+    width:225px !important; float:left; margin:0 15px 0 0; background:url(../images/sub_div_bg.gif) repeat-y 0 0 #D6D7A0; color:#5C5C5C;
+    padding:0;
+}
+.subdiv .nomar{
+    margin:0;
+}
+
+.subdiv h2{
+    background:url(../images/parent.gif) no-repeat 0 0 #fffffe; margin:0 5px 0 5px; display:block; padding:0 0 0 44px; 
+    height:41px; color:#FFFFFF; font:bold 16px/41px Arial, Helvetica, sans-serif; width:171px;
+}
+.subdiv form{
+    margin:0 0 25px 10px; width:194px;
+}
+.subdiv form label{
+    width:193px; float:left; height:27px; font:normal 10px/27px Arial, Helvetica, sans-serif;
+}
+.subdiv form input.textbox{
+    width:189px; height:23px; border-bottom:#D4CEAA 1px solid; border-right:#D4CEAA 1px solid; border-top:#302A14 1px solid;
+    border-left:#302A14 1px solid; float:left; margin:0 1px 0 0;
+}
+.subdiv form input.loginbut{
+    width:50px; height:16px; float:right; cursor:pointer; font-size:0; border:none;
+    background:url(../images/login_but.gif) no-repeat 0 0; margin:10px 0 0 0;
+}
+.subdiv p.marTop{
+    padding:13px 0 0 0;
+}
+.subdiv p.text{
+    font-size:11px; font-weight:bold; line-height:16px; padding:0 0 5px 0; margin: 0 0 0 20px;
+}
